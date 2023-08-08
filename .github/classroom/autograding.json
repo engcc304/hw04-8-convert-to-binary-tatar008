@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Set 1",
+      "setup": "g++ -o a.out ./Homework/HW04/hw04-8-convert-to-binary.cpp",
+      "run": "./a.out",
+      "input": "FB",
+      "output": "11111011",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Set 2",
+      "setup": "g++ -o a.out ./Homework/HW04/hw04-8-convert-to-binary.cpp",
+      "run": "./a.out",
+      "input": "19",
+      "output": "11001",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
